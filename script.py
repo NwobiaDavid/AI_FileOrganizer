@@ -5,13 +5,6 @@ import threading
 import io
 import sys
 from contextlib import redirect_stdout
-
-# Import the functionality from your existing script
-# Assuming the code you provided is saved as file_organizer.py
-# If it's in the same file, you can directly call the function
-
-# Import your file organization function or copy it directly
-# From the code you shared, I'm using the main function:
 import shutil
 import argparse
 from collections import defaultdict
@@ -469,7 +462,7 @@ class TextRedirector:
 class FileOrganizerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("File Organizer")
+        self.root.title("AI File Organizer")
         self.root.geometry("800x700")
         
         # Create a style
